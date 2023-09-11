@@ -29,7 +29,7 @@ void ledBlink(){
 }
 
 void forward(){
-  motors.setSpeeds(SPEED_OF_LEFT_MOTOR, SPEED_OF_RIGHT_MOTOR);
+  motors.setSpeeds(0, 0); //SPEED_OF_LEFT_MOTOR, SPEED_OF_RIGHT_MOTOR
   delay(1000);
   motors.setSpeeds(0,0);
 }
